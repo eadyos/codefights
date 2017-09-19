@@ -1,0 +1,51 @@
+/*
+You just started working at a bank. Unfortunately, you've discovered that this bank isn't great at keeping records. Some of the entries in your database are really messed up! There are records about customers in the wrong format. There are even records about people who aren't customers of this bank!
+
+The records table contains the following columns:
+
+id - the unique ID of the customer;
+customer_name - the unique name of the customer;
+card - the number of the customer's bank card (it's guaranteed that each customer has only one card);
+issue_date - the date when this card was issued.
+For each id, return "true" or "false" in the column result, depending on whether the records have the right format.
+
+Here's the description of the correct record format:
+
+customer_name - should consist of two words, both starting with a capital letter, separated by a single whitespace (e.g. "John Smith");
+card - should start with the digits "1234" (since this is the code of your bank) and have the format "1234-dddd-dddd-dddd", where "d" stands for any digit from 0 to 9.
+issue_date - your bank's first day of operation was 01-01-2000, so all dates before this day are incorrect. We won't consider any records after 31-12-2016 either. The format of this column should be "dd-mm-yyyy", where "dd" stands for the day, "mm" stands for the month, and "yyyy" stands for the year. To make task easier, let's say that every month has 31 days.
+Example
+
+For given table records
+
+id	customer_name	card	issue_date
+1	John Smith	1234-5555-5555-5555	01-01-2000
+2	Alfie Watson	1234-5555-5555-5556	21-11-1999
+3	Louie Watson	1233-5565-5555-5555	31-07-2015
+4	Jonathan	1234-9999-9999-9999	28-12-2007
+the output should be
+
+id	result
+1	true
+2	false
+3	false
+4	false
+The first record is correct. In the second record, issue_date is incorrect since the year in it is 1999. In the third record, card is incorrect since the first four digits are 1233, but should be 1234. And in the fourth record, customer_name is incorrect since it contains only one word.
+
+[time limit] 10000ms (mysql)
+*/
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE bankCustomers()
+BEGIN
+
+select id,
+if(
+customer_name rlike binary '^[A-Z][a-z]+[[.space.]][A-Z][a-z]+$'
+and card rlike '^1234(-[0-9]{4}){3}$'
+and issue_date rlike '^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-20(0[0-9]|1[0-6])$',
+'true', 'false'
+) as result
+from records
+;
+END
