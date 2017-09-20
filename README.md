@@ -5,7 +5,8 @@ This repo contains solutions to problems I've worked on at [codefights.com](http
 CodeFights is a good resource for practicing your coding skills.
 
 
-#Challenges
+##Challenges
+
 Challenges are daily challenges where you compete with 3 goals.
 
 **1) Solve the problem by passing all test cases and hidden test cases.**
@@ -21,7 +22,8 @@ At first glace, a problem can look trivial, but getting a solution to complete w
 This is commonly referred to as "code golf".  It can result in horribly uglified code, but as a learning exercise it has merit.  Coming up with a solution and then "golfing" it down to fewer characters exposes you to capabilities of a programming language that you may not have known.  Here, you are competing with other programmers.
 
 
-#Arcade
+##Arcade
+
 The arcade is a fixed set of problems under topic sections.  The problems in a section can have an increasing level of difficulty the further you go.
 
 While there are 1) test cases and 2) time constraints, there are no awards for shortest-solution in the arcade.  Code written for the arcade is generally more **readable** than what is written for "Challenges", however, bear in mind that it is still written just for fun and practice with no audience in mind.
