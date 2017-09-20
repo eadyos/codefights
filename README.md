@@ -26,4 +26,4 @@ This is commonly referred to as "code golf".  It can result in horribly uglified
 
 The arcade is a fixed set of problems under topic sections.  The problems in a section can have an increasing level of difficulty the further you go.
 
-While there are 1) test cases and 2) time constraints, there are no awards for shortest-solution in the arcade.  Code written for the arcade is generally more **readable** than what is written for "Challenges", however, bear in mind that it is still written just for fun and practice with no audience in mind.
+While there are 1) test cases and 2) time constraints, there are no awards for shortest-solution in the arcade.  Code written for the arcade is generally more **readable** than what is written for "Challenges", however, bear in mind that it is still written just for practice with no audience in mind.
