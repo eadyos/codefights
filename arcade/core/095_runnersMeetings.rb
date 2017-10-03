@@ -56,7 +56,7 @@ def runnersMeetings(startPosition, speed)
             startPosition[runner] += metersPerSecond
         }
 
-        cardinality = startPosition.size - 
+        cardinality = startPosition.size -
             startPosition.map{|p| p.round(2)}.uniq.size
 
         cardinality += cardinality == 0 ? 0 : 1
