@@ -27,3 +27,8 @@ This is commonly referred to as "code golf".  It can result in horribly uglified
 The arcade is a fixed set of problems under topic sections.  The problems in a section can have an increasing level of difficulty the further you go.
 
 While there are 1) test cases and 2) time constraints, there are no awards for shortest-solution in the arcade.  Code written for the arcade is generally more **readable** than what is written for "Challenges", however, bear in mind that it is still written just for practice with no audience in mind.
+
+
+## Practice
+
+The practice section are problems that can have subtle, yet steep difficulty.  In this section, its not enough to just return the correct result, but you must also do it with strict O(n) performance and memory constraints. They are the types of questions that are often asked in an interview setting.
