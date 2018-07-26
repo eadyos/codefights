@@ -1,17 +1,27 @@
 /*
 https://app.codesignal.com/challenge/L4QW24zJS42QRbvoc
 
-This week the theme of CODs is the Jobs Platform. If you are in the US and would like to learn more about it or try it out for real go to the Jobs Tab.
+This week the theme of CODs is the Jobs Platform. If you are in the US and would like to learn more about it or try it out 
+for real go to the Jobs Tab.
 
-Every day we receive many new job applications through the Jobs tab and most users who submit the application have very different backgrounds and skills. In order to properly handle all applications, we have a team of Talent Success Managers (TSM), who personally work with each user to help them through the job search process.
+Every day we receive many new job applications through the Jobs tab and most users who submit the application have very 
+different backgrounds and skills. In order to properly handle all applications, we have a team of Talent Success Managers (TSM), 
+who personally work with each user to help them through the job search process.
 
-Since the number of applications is quite large, we've built an algorithm for filtering and distributing job applications among TSMs. Here is a simplified version of it that you need to implement as part of this challenge.
+Since the number of applications is quite large, we've built an algorithm for filtering and distributing job applications 
+among TSMs. Here is a simplified version of it that you need to implement as part of this challenge.
 
-You are given the number of TSMs, list of jobApplications, list of availableLocations where our partner companies offer a job, and minimum years of experince that is required for each job (assume it's the same for all jobs). Each jobApplication has several fields username, workExperienceInYears, location.
+You are given the number of TSMs, list of jobApplications, list of availableLocations where our partner companies offer a job,
+and minimum years of experince that is required for each job (assume it's the same for all jobs). Each jobApplication has several 
+fields username, workExperienceInYears, location.
 
-You need to process jobApplications in the given order and if it satisfies the given constraints assign them to the next TSM through a Round Robin process (cyclic order).
+You need to process jobApplications in the given order and if it satisfies the given constraints assign them to the next TSM 
+through a Round Robin process (cyclic order).
 
-Return an array of TSM assignments of the same length as the jobApplications array where each element in the output array is the number of the TSM (1-based) that would be assigned to the application at that same index in the original jobApplications array. In case if a job application was filtered out due to the constraints, the corresponding array element in the output should be a -1.
+Return an array of TSM assignments of the same length as the jobApplications array where each element in the output array 
+is the number of the TSM (1-based) that would be assigned to the application at that same index in the original 
+jobApplications array. In case if a job application was filtered out due to the constraints, the corresponding 
+array element in the output should be a -1.
 
 Example
 
@@ -59,7 +69,8 @@ Guaranteed constraints:
 
 [input] array.string jobApplications
 
-The array of job applications, each in format username experience location. username and location are words consisting of English letters, and experience is an integer between 1 and 100.
+The array of job applications, each in format username experience location. username and location are words consisting of 
+English letters, and experience is an integer between 1 and 100.
 
 Guaranteed constraints:
 1 ≤ jobApplications.length ≤ 105,
