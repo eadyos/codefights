@@ -1,8 +1,8 @@
-# Codefights
+# CodeSignal (Formerly CodeFights)
 
-This repo contains solutions to problems I've worked on at [codefights.com](https://codefights.com/)
+This repo contains solutions to problems I've worked on at [codesignal.com](https://codesignal.com/)
 
-CodeFights is a good resource for practicing your coding skills.
+CodeSignal is a good resource for practicing your coding skills.
 
 
 ## Challenges
