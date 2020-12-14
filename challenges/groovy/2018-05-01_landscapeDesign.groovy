@@ -1,7 +1,10 @@
 /*
 https://app.codesignal.com/challenge/suXknrsWDFQQWHpEa
 
-Your friend John decided to do landscape design. Now his garden can be represented as n vertical columns, the ith of which begins on the y coordinate of a[i], and goes infinitely down. John can do one operation - change the height of any column by 1 (note that the heights can become negative). Your friend wants to change the height of the columns from ai to bi, so that for each 1 ≤ i ≤ n - 2, bi = bi + 2, and any two adjacent columns differ in height exactly on diff.
+Your friend John decided to do landscape design. Now his garden can be represented as n vertical columns, the ith of which begins on the y coordinate 
+of a[i], and goes infinitely down. John can do one operation - change the height of any column by 1 (note that the heights can become negative). 
+Your friend wants to change the height of the columns from ai to bi, so that for each 1 ≤ i ≤ n - 2, bi = bi + 2, and any two adjacent columns differ
+in height exactly on diff.
 Help your friend understand, what is the minimum amount of operations he should perform to obtain desired heights.
 
 Example
