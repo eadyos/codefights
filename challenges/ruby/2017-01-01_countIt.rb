@@ -1,9 +1,11 @@
 =begin
 https://codefights.com/challenge/v5Zg8trjoun3PTxrZ/solutions/LRxji22tf3vBnKtqT
 
-This problem can be solved by pre-school children in 5-10 minutes. By programmers in one hour. By people with a higher education… Well, it certainly can take them a while.
+This problem can be solved by pre-school children in 5-10 minutes. By programmers in one hour. 
+By people with a higher education… Well, it certainly can take them a while.
 
-Since you, CodeFighters, are supposed to be programmers, it shouldn't take you that long to solve it :) Take a look at the test cases and figure what this is all about.
+Since you, CodeFighters, are supposed to be programmers, it shouldn't take you that long to solve it :) 
+Take a look at the test cases and figure what this is all about.
 
 Beware the corner cases!
 
